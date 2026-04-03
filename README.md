@@ -1,3 +1,6 @@
+# Fullstack-challenges
+Modern responsive social links profile page built with HTML, CSS, and JavaScript, featuring glassmorphism UI, animated social buttons, theme toggle, and a polished personal profile card.
+
 # Social Links Profile
 
 A modern, responsive "Social Links Profile" page built with HTML, CSS, and a little JavaScript.
