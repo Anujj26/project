@@ -7,10 +7,14 @@ if (themeToggle) {
     document.body.classList.toggle("light-mode");
 
     const isLightMode = document.body.classList.contains("light-mode");
-    themeIcon.className = isLightMode ? "fa-solid fa-sun" : "fa-solid fa-moon";
     themeToggle.setAttribute(
       "aria-label",
       isLightMode ? "Switch to dark mode" : "Switch to light mode"
     );
+
+    if (themeIcon) {
+      themeIcon.classList.remove("fa-sun", "fa-moon");
+      themeIcon.classList.add(isLightMode ? "fa-sun" : "fa-moon");
+    }
   });
 }
